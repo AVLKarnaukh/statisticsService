@@ -17,6 +17,7 @@ public class StatisticsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     void findMaxIfLess() {
         StatisticsService service = new StatisticsService();
